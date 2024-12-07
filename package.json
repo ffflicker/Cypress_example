@@ -1,0 +1,14 @@
+{
+  "name": "cypress_example",
+  "version": "1.0.0",
+  "description": "1. Путь к проектам cypress_example/cypress/e2e 2. Добавил переменные в cypress/fixtures    2.1 Для каждого проекта свой файл    2.2 Если подставить корректные данные в файлы, то можно прогнать автотестом (npx cypress run ...)",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.16.1"
+  }
+}
