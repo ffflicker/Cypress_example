@@ -1,4 +1,4 @@
-import { credentials, selectors } from '/Users/matvey/Desktop/cypress_lab/cypress/fixtures/pokemons_variables.js';
+import { credentials, selectors } from '../../fixtures/pokemons_variables.js'
 
 describe('User-flow для покупки аватара', () => {
   it('е2е автотест для покемонов: на покупку нового аватара для своего тренера', () => {

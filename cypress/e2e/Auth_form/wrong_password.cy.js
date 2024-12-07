@@ -1,4 +1,4 @@
-import { credentials, selectors } from '/Users/matvey/Desktop/cypress_lab/cypress/fixtures/auth_variables.js';
+import { credentials, selectors } from '../../fixtures/auth_variables';
 
 describe('Негативный кейс авторизации', () => {
   it('Неудачная авторизация с правильным логином и неправильным паролем', () => {

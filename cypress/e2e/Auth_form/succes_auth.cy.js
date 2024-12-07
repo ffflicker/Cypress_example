@@ -1,4 +1,4 @@
-import { credentials, selectors } from '/Users/matvey/Desktop/cypress_lab/cypress/fixtures/auth_variables';
+import { credentials, selectors } from '../../fixtures/auth_variables';
 
 describe('Позитивный кейс авторизации', () => {
   it('Успешная авторизация с проверкой текста и наличия кнопки крестик', () => {

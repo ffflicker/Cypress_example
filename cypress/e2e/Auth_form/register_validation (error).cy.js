@@ -1,4 +1,4 @@
-import { credentials, selectors } from '/Users/matvey/Desktop/cypress_lab/cypress/fixtures/auth_variables.js';
+import { credentials, selectors } from '../../fixtures/auth_variables';
 
 describe('Проверка приведения логина к строчным буквам', () => {
   it('Авторизация с логином с заглавными буквами, тест на баг с регистрацией', () => {
