@@ -7,6 +7,9 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     supportFile: 'cypress/support/e2e.js',
-    specPattern: "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    specPattern: [
+      "cypress/e2e/Auth_form/*.cy.{js,jsx,ts,tsx}",
+      "cypress/e2e/Pokemons/*.cy.{js,jsx,ts,tsx}"
+    ]
   },
 });
